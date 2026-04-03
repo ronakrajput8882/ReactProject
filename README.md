@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=2,12,24&amp;height=200&amp;section=header&amp;text=%E2%9A%9B%EF%B8%8F%20React%20%2B%20MySQL%20Full%20Stack%20App&amp;fontSize=38&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=A%20Full-Stack%20Web%20Application%20with%20React%2C%20Node.js%20%26%20MySQL&amp;descAlignY=60&amp;descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,24&height=200&section=header&text=🛒%20ShopSmart%20Purchase%20Intent%20Predictor&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Predict%20Online%20Shopper%20Purchasing%20Intent%20with%20Decision%20Tree%20%7C%20Sklearn%20Pipeline&descAlignY=60&descAlign=50" width="100%"/>
 
 [![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&amp;logo=react&amp;logoColor=black)](https://reactjs.org)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&amp;logo=vite&amp;logoColor=white)](https://vitejs.dev)
