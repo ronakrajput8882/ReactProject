@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,24&height=200&section=header&text=⚛️%20React%20+%20MySQL%20Full%20Stack%20App&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=A%20Full-Stack%20Web%20Application%20with%20React,%20Node.js%20%26%20MySQL&descAlignY=60&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=2,12,24&amp;height=200&amp;section=header&amp;text=⚛️%20React%20+%20MySQL%20Full%20Stack%20App&amp;fontSize=38&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=A%20Full-Stack%20Web%20Application%20with%20React,%20Node.js%20%26%20MySQL&amp;descAlignY=60&amp;descAlign=50" width="100%"/>
 
 <div align="center">
 
@@ -187,6 +187,6 @@ The React app runs at `http://localhost:5173` and the API at `http://localhost:5
 
 *If you found this useful, please ⭐ the repo!*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,24&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=2,12,24&amp;height=100&amp;section=footer" width="100%"/>
 
 </div>
