@@ -1,12 +1,12 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=2,12,24&amp;height=200&amp;section=header&amp;text=%E2%9A%9B%EF%B8%8F%20React%20%2B%20MySQL%20Full%20Stack%20App&amp;fontSize=38&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=A%20Full-Stack%20Web%20Application%20with%20React%2C%20Node.js%20%26%20MySQL&amp;descAlignY=60&amp;descAlign=50" width="100%"/>
 
-[![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&amplogoColor=black)](https://reactjs.org)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&amplogoColor=white)](https://vitejs.dev)
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&amplogoColor=white)](https://nodejs.org)
-[![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&amplogoColor=white)](https://expressjs.com)
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&amplogoColor=white)](https://www.mysql.com)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&amplogo=tailwind-css&logoColor=white)](https://tailwindcss.com)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&amplogo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&amp;logo=react&amp;logoColor=black)](https://reactjs.org)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&amp;logo=vite&amp;logoColor=white)](https://vitejs.dev)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&amp;logo=node.js&amp;logoColor=white)](https://nodejs.org)
+[![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&amp;logo=express&amp;logoColor=white)](https://expressjs.com)
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&amp;logo=mysql&amp;logoColor=white)](https://www.mysql.com)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&amp;logo=tailwind-css&amp;logoColor=white)](https://tailwindcss.com)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](LICENSE)
 
 ---
