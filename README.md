@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving &amp;color=gradient&amp;customColorList=2,12,24&amp;height=200&amp;section=header&amp;text=%E2%9A%9B%EF%B8%8F%20React%20%2B%20MySQL%20Full%20Stack%20App&amp;fontSize=38&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=A%20Full-Stack%20Web%20Application%20with%20React%2C%20Node.js%20%26%20MySQL&amp;descAlignY=60&amp;descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=2,12,24&amp;height=200&amp;section=header&amp;text=%E2%9A%9B%EF%B8%8F%20React%20%2B%20MySQL%20Full%20Stack%20App&amp;fontSize=38&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=A%20Full-Stack%20Web%20Application%20with%20React%2C%20Node.js%20%26%20MySQL&amp;descAlignY=60&amp;descAlign=50" width="100%"/>
 
 [![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
