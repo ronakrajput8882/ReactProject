@@ -1,6 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=2,12,24&amp;height=200&amp;section=header&amp;text=⚛️%20React%20+%20MySQL%20Full%20Stack%20App&amp;fontSize=38&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=A%20Full-Stack%20Web%20Application%20with%20React,%20Node.js%20%26%20MySQL&amp;descAlignY=60&amp;descAlign=50" width="100%"/>
-
-<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=2,12,24&amp;height=200&amp;section=header&amp;text=%E2%9A%9B%EF%B8%8F%20React%20%2B%20MySQL%20Full%20Stack%20App&amp;fontSize=38&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=A%20Full-Stack%20Web%20Application%20with%20React%2C%20Node.js%20%26%20MySQL&amp;descAlignY=60&amp;descAlign=50" width="100%"/>
 
 [![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
@@ -10,8 +8,6 @@
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](LICENSE)
-
-</div>
 
 ---
 
@@ -26,10 +22,10 @@ This project demonstrates end-to-end full-stack development — from database sc
 ## 🏗️ Architecture
 
 ```
-React (Vite) Frontend  →  Express REST API  →  MySQL Database
-        ↑                        ↑
-  Tailwind CSS           MVC Pattern
-  (Styling)         (Controllers / Models / Routes)
+React (Vite) Frontend  -->  Express REST API  -->  MySQL Database
+        ^                          ^
+  Tailwind CSS              MVC Pattern
+  (Styling)          (Controllers / Models / Routes)
 ```
 
 ---
@@ -37,16 +33,22 @@ React (Vite) Frontend  →  Express REST API  →  MySQL Database
 ## 🔄 Application Flow
 
 ```
-Client Request → Express Router → Middleware → Controller → Model → MySQL → Response → React UI
+Client Request --> Express Router --> Middleware --> Controller --> Model --> MySQL --> Response --> React UI
 ```
 
-1️⃣ **React Frontend** — Component-based UI, communicates with backend via HTTP/API calls  
-2️⃣ **Express Router** — Defines API endpoints and maps them to controller functions  
-3️⃣ **Middleware** — Handles auth, validation, request parsing, CORS, and error handling  
-4️⃣ **Controller** — Business logic layer; processes requests and calls models  
-5️⃣ **Model** — Data access layer; executes queries against MySQL database  
-6️⃣ **MySQL** — Relational database storing and persisting application data  
-7️⃣ **Utils** — Shared helper functions (response formatters, error handlers, etc.)  
+**1. React Frontend** — Component-based UI, communicates with backend via HTTP/API calls
+
+**2. Express Router** — Defines API endpoints and maps them to controller functions
+
+**3. Middleware** — Handles auth, validation, request parsing, CORS, and error handling
+
+**4. Controller** — Business logic layer; processes requests and calls models
+
+**5. Model** — Data access layer; executes queries against MySQL database
+
+**6. MySQL** — Relational database storing and persisting application data
+
+**7. Utils** — Shared helper functions (response formatters, error handlers, etc.)
 
 ---
 
@@ -54,25 +56,25 @@ Client Request → Express Router → Middleware → Controller → Model → My
 
 ```
 ReactProject/
-│
-├── src/                    # React frontend source
-│   ├── components/         # Reusable UI components
-│   ├── pages/              # Page-level components
-│   └── main.jsx            # React app entry point
-│
-├── controllers/            # Express controller functions (business logic)
-├── models/                 # Database models (MySQL queries)
-├── routes/                 # API route definitions
-├── middlewares/            # Custom middleware (auth, validation, etc.)
-├── utils/                  # Shared utility functions
-├── public/                 # Static assets
-│
-├── server.js               # Express app entry point
-├── index.html              # Vite HTML entry
-├── vite.config.js          # Vite configuration
-├── tailwind.config.js      # Tailwind CSS configuration
-├── eslint.config.js        # ESLint rules
-└── package.json            # Dependencies & scripts
+|
++-- src/                    # React frontend source
+|   +-- components/         # Reusable UI components
+|   +-- pages/              # Page-level components
+|   +-- main.jsx            # React app entry point
+|
++-- controllers/            # Express controller functions (business logic)
++-- models/                 # Database models (MySQL queries)
++-- routes/                 # API route definitions
++-- middlewares/            # Custom middleware (auth, validation, etc.)
++-- utils/                  # Shared utility functions
++-- public/                 # Static assets
+|
++-- server.js               # Express app entry point
++-- index.html              # Vite HTML entry
++-- vite.config.js          # Vite configuration
++-- tailwind.config.js      # Tailwind CSS configuration
++-- eslint.config.js        # ESLint rules
++-- package.json            # Dependencies and scripts
 ```
 
 ---
@@ -120,8 +122,6 @@ mysql -u root -p your_database_name < schema.sql
 
 ### 5. Run the Application
 
-**Development mode (frontend + backend separately):**
-
 ```bash
 # Start the Express backend
 node server.js
@@ -130,24 +130,18 @@ node server.js
 npm run dev
 ```
 
-**Or run both concurrently:**
-
-```bash
-npm run dev:full
-```
-
 The React app runs at `http://localhost:5173` and the API at `http://localhost:5000`.
 
 ---
 
 ## 🔍 Key Highlights
 
-- 🏗️ **MVC Architecture** — Clean separation of concerns across Controllers, Models, and Routes for a maintainable codebase
-- ⚡ **Vite + HMR** — Lightning-fast development with instant hot module replacement
-- 🎨 **Tailwind CSS** — Utility-first styling for rapid and consistent UI development
-- 🔒 **Middleware Layer** — Centralized request validation, authentication, and error handling
-- 🗄️ **MySQL Integration** — Structured relational data storage with a dedicated model layer
-- 📦 **Modular Structure** — Each layer (routes, controllers, models, utils) is independently organized
+- **MVC Architecture** — Clean separation of concerns across Controllers, Models, and Routes for a maintainable codebase
+- **Vite + HMR** — Lightning-fast development with instant hot module replacement
+- **Tailwind CSS** — Utility-first styling for rapid and consistent UI development
+- **Middleware Layer** — Centralized request validation, authentication, and error handling
+- **MySQL Integration** — Structured relational data storage with a dedicated model layer
+- **Modular Structure** — Each layer (routes, controllers, models, utils) is independently organized
 
 ---
 
@@ -167,17 +161,15 @@ The React app runs at `http://localhost:5173` and the API at `http://localhost:5
 | Tool | Purpose |
 |:---|:---|
 | **React 18** | Frontend UI library |
-| **Vite** | Frontend build tool & dev server |
+| **Vite** | Frontend build tool and dev server |
 | **Tailwind CSS** | Utility-first CSS framework |
 | **Node.js** | JavaScript runtime for the backend |
 | **Express.js** | REST API framework |
 | **MySQL** | Relational database |
-| **ESLint** | Code linting & quality |
+| **ESLint** | Code linting and quality |
 | **JavaScript (ES6+)** | Primary language across the stack |
 
 ---
-
-<div align="center">
 
 ### Connect with me
 
@@ -185,8 +177,6 @@ The React app runs at `http://localhost:5173` and the API at `http://localhost:5
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/techwithronak)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ronakrajput8882)
 
-*If you found this useful, please ⭐ the repo!*
+*If you found this useful, please star the repo!*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=2,12,24&amp;height=100&amp;section=footer" width="100%"/>
-
-</div>
