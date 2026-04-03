@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,24&height=200&section=header&text=🛒%20ShopSmart%20Purchase%20Intent%20Predictor&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Predict%20Online%20Shopper%20Purchasing%20Intent%20with%20Decision%20Tree%20%7C%20Sklearn%20Pipeline&descAlignY=60&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,24&height=200&section=header&text=🛒%20React%20MySQL%20Full%20Stack%20App&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Predict%20Online%20Shopper%20Purchasing%20Intent%20with%20Decision%20Tree%20%7C%20Sklearn%20Pipeline&descAlignY=60&descAlign=50" width="100%"/>
 
 [![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&amp;logo=react&amp;logoColor=black)](https://reactjs.org)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&amp;logo=vite&amp;logoColor=white)](https://vitejs.dev)
