@@ -1,5 +1,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,24&height=200&section=header&text=%E2%9A%9B%EF%B8%8F%20React%20%2B%20MySQL%20Full%20Stack%20App&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=A%20Full-Stack%20Web%20Application%20with%20React%20Node.js%20MySQL&descAlignY=60&descAlign=50" width="100%"/>
 
+<div align="center">
+        
 [![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&amp;logo=react&amp;logoColor=black)](https://reactjs.org)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&amp;logo=vite&amp;logoColor=white)](https://vitejs.dev)
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&amp;logo=node.js&amp;logoColor=white)](https://nodejs.org)
@@ -8,6 +10,8 @@
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&amp;logo=tailwind-css&amp;logoColor=white)](https://tailwindcss.com)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](LICENSE)
+
+</div>
 
 ---
 
