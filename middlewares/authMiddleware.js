@@ -1,7 +1,6 @@
 const jwt = require("jsonwebtoken");
-const User = require("../models/User"); // Sequelize model
+const User = require("../models/User");
 
-// ✅ Protect route middleware
 const protect = async (req, res, next) => {
   let token;
 
@@ -12,8 +11,7 @@ const protect = async (req, res, next) => {
     try {
       token = req.headers.authorization.split(" ")[1];
       const decoded = jwt.verify(token, process.env.JWT_SECRET);
-
-      // Sequelize equivalent of findById and select without password
+      
       const user = await User.findByPk(decoded.id, {
         attributes: { exclude: ["password"] }
       });
@@ -33,7 +31,6 @@ const protect = async (req, res, next) => {
   }
 };
 
-// ✅ Admin-only middleware
 const adminOnly = (req, res, next) => {
   if (req.user && req.user.role === "admin") {
     next();
