@@ -20,7 +20,6 @@ function App() {
   const [search, setSearch] = useState("");
   const location = useLocation();
 
-  // Pages that should NOT show Header/Footer
   const hideLayout = ["/", "/register"].includes(location.pathname);
 
   return (
