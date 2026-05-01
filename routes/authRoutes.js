@@ -11,22 +11,10 @@ const {
   verifyOtp
 } = require("../controllers/authController");
 
-// Register user
 router.post("/register", registerUser);
-
-// Login user with email/phone and password
 router.post("/login", loginUser);
-
-// Logout user
 router.post("/logout", logoutUser);
-
-// Send OTP for email/phone verification
 router.post("/send-otp", sendOtp);
-
-// Verify OTP
 router.post("/verify-otp", verifyOtp);
-
-// Protected route to get user profile
 router.get("/profile", protect, getUserProfile);
-
 module.exports = router;
