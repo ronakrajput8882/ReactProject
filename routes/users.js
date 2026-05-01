@@ -6,10 +6,3 @@ router.post("/", createUser);
 router.get("/:email", getUserByEmail);
 
 module.exports = router;
-
-
-
-
-
-
-
