@@ -181,6 +181,6 @@ The React app runs at `http://localhost:5173` and the API at `http://localhost:5
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/techwithronak)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ronakrajput8882)
 
-*If you found      
+*If you       
 
 <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=2,12,24&amp;height=100&amp;section=footer" width="100%"/>
